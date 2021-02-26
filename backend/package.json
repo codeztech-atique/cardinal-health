@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "The backend is written in Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon local.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "atique ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "aws-serverless-express": "^3.3.8",
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.0",
+    "config": "^3.3.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "serverless": "^2.13.0",
+    "twilio": "^3.57.0"
+  }
+}
