@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
   });
 });
 
-app.post('/twillo/send/singlemessge', [middleware.validateApi], (req, res, next) => {
+app.post('/twillo/send/message', [middleware.validateApi], (req, res, next) => {
   controllers.twilloSendSingleUserMessage(req, res);
 });
 
